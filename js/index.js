@@ -158,7 +158,10 @@ letsGo.addEventListener('dragend', () => {
     border: "5px",
     backgroundColor: "#444",
     duration: 2.5,
-    fontSize: "36px"
+    fontSize: "36px",
+    rotate: 360,
+    transformOrigin: 'left top',
+    opacity: 0
  };
  gsap.to(letsGo, goOptions);
 //test code   
