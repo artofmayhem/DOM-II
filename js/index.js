@@ -214,3 +214,16 @@ event.preventDefault();
 //test code
 // log(grabNav);
 
+
+
+//12. RESIZE WINDOW
+const height = document.querySelector('.container');
+window.addEventListener('resize', () => {
+  const stuffOpt = 
+  {
+   backgroundColor: "#9966FF",
+   color: 'black',
+   scale: 0
+  }
+gsap.to(height, stuffOpt);
+});
